@@ -1,0 +1,28 @@
+package com.amigo.programador.mstransaction.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import com.amigo.programador.mstransaction.entity.Transaction;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+@Service
+public class TransactionService {
+
+	WebClient dc = WebClient.create();
+	
+	@Autowired
+	private TransactionService repository;
+	
+	public Flux<Transaction> findAll() {
+		return repository.findAll();
+	}
+	
+	public Mono<Transaction> createTransaction(Transaction transaction) {
+		
+		return null;
+	}
+}

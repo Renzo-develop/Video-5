@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DebitCard.java&apos; to &apos;library/src/main/java/com.amigo.programador.library&apos;&#x0D;&#x0A;- Original project: &apos;ms-debitcard&apos;&#x0D;&#x0A;- Destination element: &apos;library/src/main/java/com.amigo.programador.library&apos;&#x0D;&#x0A;- Original element: &apos;com.amigo.programador.msdebitcard.entity.DebitCard.java&apos;" description="Copy compilation unit" destination="=library/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.amigo.programador.library" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.amigo.programador.msdebitcard.entity{DebitCard.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1702744517286" units="1" version="1.0"/>
+</session>
